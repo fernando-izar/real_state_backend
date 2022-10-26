@@ -1,8 +1,8 @@
 # Repositório
 
-https://github.com/Kenzie-Academy-Brasil-Developers/m4-entrega-sprint-5-fernando-izar
+https://github.com/fernando-izar/real_state_backend
 
-# S5-19 | 🏁 Entrega: KImóveis - TypeORM com Relacionamentos
+# 🏁 Real State - TypeORM com Relacionamentos
 
 Para inciar este projeto, é necessário instalar as dependências, que serão utilizadas nos testes. Portanto utilize o comando abaixo para instalar tais dependências:
 
