@@ -1,5 +1,6 @@
 import app from "./app";
 import AppDataSource from "./data-source";
+import "dotenv/config";
 
 const PORT = process.env.PORT;
 
@@ -8,7 +9,7 @@ const PORT = process.env.PORT;
     console.error("Error during Data Source initialization", err);
   });
 
-  app.listen(PORT, () => {
+  app.listen(process.env.PORT || 3000, () => {
     console.log(`Server running in port ${PORT}`);
   });
 })();
